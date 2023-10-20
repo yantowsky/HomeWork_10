@@ -1530,16 +1530,16 @@ ul {
   }
 }
 
-.photos:hover {
+.photos--mod:hover {
   transform: scale(1.2);
 }
 @media screen and (max-width: 1023px) {
-  .photos:hover {
+  .photos--mod:hover {
     transform: none;
   }
 }
 
-.photos__img {
+.photos__img--mod {
   background-color: #d2dff9;
   padding: 10px 3%;
   border-radius: 6px;
